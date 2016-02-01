@@ -1,0 +1,3 @@
+content     notraceunisait    content/
+skin		notraceunisait	classic/1.0	skin/
+overlay chrome://browser/content/browser.xul chrome://notraceunisait/content/overlay.xul

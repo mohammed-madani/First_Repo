@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="faststartff@gmail.com"
+				   em:unpack="true"
+                   em:version="4.3.0"
+                   em:iconURL="chrome://quick_start/skin/logo.png"
+                   em:homepageURL="http://www.lightningnewtab.com"
+                   em:type="2"
+                   em:name="Fast Start"
+                   em:updateURL="https://static.dreamsadnetwork.com/ep/faststart.update.rdf"
+                   em:description="Fast Start is a firefox extension based on Html5. It provides website fast dial to make you find your favorite websites ASAP, New Tab Start Page, Organize bookmarks, Custom backgrounds, custom dials."
+                   em:creator="lightningnewtab.com"
+                   em:developer="lipton">
+
+    <em:targetApplication RDF:resource="rdf:#$7qlS52"/>
+    <em:localized RDF:resource="rdf:#$gqlS52"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$gqlS52"
+                   em:locale="en-US"
+                   em:name="Fast Start"
+                   em:description="Fast Start is a firefox extension based on Html5. It provides website fast dial to make you find your favorite websites ASAP, New Tab Start Page, Organize bookmarks, Custom backgrounds, custom dials."
+                   em:creator="lightningnewtab.com"
+                   em:developer="lipton" />
+  <RDF:Description RDF:about="rdf:#$7qlS52"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="4.0"
+                   em:maxVersion="30.*" />
+</RDF:RDF>

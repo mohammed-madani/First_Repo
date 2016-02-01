@@ -1,0 +1,126 @@
+.wrap{
+    width: 750px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.search-wrap{
+    position: relative;
+    margin-top: 76px;
+    height:185px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gird-box{
+    width:720px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+.gird-box li{
+    float:left;
+    width:157px;
+    height:142px;
+    overflow:hidden;
+    margin: 0 30px 6px 0;
+}
+.gird-box li:nth-child(4n) { 
+    margin: 0 ; 
+}
+.gird-box .site-image{
+    width:155px;
+    height:95px;
+    border: 1px solid #c0c0c0;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.09);
+}
+.gird-box .site-image img{
+    width:155px;
+    transition: all ease 0.5s;
+    opacity: 0.7;
+}
+.site-image:hover .png-icon img{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.site-image:hover{
+    border: 1px solid #999;
+}
+.png-icon{
+    height:95px;
+    display:table-cell; 
+    text-align:center; 
+    vertical-align:middle;
+}
+.gird-box .site-title{
+    width:155px;
+    height:22px;
+    line-height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    text-align: center;
+    font-size: 12px;
+}
+.search {
+    border-radius: 1px; 
+    width:720px;
+    position: relative; 
+    height: 44px;
+    z-index: 9990;
+}
+.search-form{
+    display: block;
+    width: 720px; 
+    margin: 0 auto 0;
+    position: relative;
+}
+.google-logo{
+    margin:0 20px 35px 220px;
+    width:242px;
+    height:85px;
+    background: url(chrome://quick_start/skin/googlelogo.png) no-repeat;
+    background-size:contain;
+}
+.hoticonBox{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:106px;
+    top: 14px;
+}
+.autocomplete-hot{
+    display:none;border: 1px solid #999; 
+    background: #FFF; 
+    overflow: auto;
+    width: 617px;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    max-height: 320px;
+    background-image: url(chrome://quick_start/skin/google_trends.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.search .btn {
+    width: 94px;
+    background-color: #2A7DEE;;
+    border: #1577d2 solid 1px;
+    border-radius: 2px;
+    float: right;
+    overflow:hidden;
+}
+.search .btn:hover { background-color: #5A94F1;border-color: #5A94F1;}
+.search .btn:active { background-image: -moz-linear-gradient(top,#4c8ffd,#357ae8);}
+.search .btn input {
+    border:none;
+    width: 100%; 
+    height:44px;
+    line-height: 44px;
+    color: #666;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ5QjU2NEJENzZCRDExRTM4OTMyQTdEMURFOEYyRkQwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQ5QjU2NEJFNzZCRDExRTM4OTMyQTdEMURFOEYyRkQwIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDlCNTY0QkI3NkJEMTFFMzg5MzJBN0QxREU4RjJGRDAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDlCNTY0QkM3NkJEMTFFMzg5MzJBN0QxREU4RjJGRDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7cdt4xAAABNUlEQVR42mL8//8/AxrgB+JkIDYDYmMgZgbis0B8CoinA/EXBlwAZBgS9gDiV/9xg3tAbI+mB46ROa5A/Aeq6SQQ+wGxNBBLALE3EB9AMtQPn2E8QPwWqrAdiJlx2F4HVfMZiEVxGVYKVbQFlxeQ8C6o2hZchh2GKnAiwjBjqNpL6HKM0Nh8BcSiQCwAxB8Z8ANQ7H6DstmRJZjQFP5lIAxwqoEZ9ghKGxBhmC4QsyHpwTBsK5TOIcKwOjQ9GIlWCBrdIJCDJ/CToWp+QtMgzkQbgpQoV0BTOicQswGxDRDPQZI/BhXHaRjMwM94stM3IJ4GzSnPgbgCn2EM0OwDygW30fJkL5LXHiLJ1eEzjBicgObiOkoMY4BGFIqBlBgGwkVIhv1hYaAM9AExDxCXAvEagAADAAK4Bde6TgkPAAAAAElFTkSuQmCC) no-repeat center center;
+    cursor: default;
+}
+
