@@ -1,6 +1,0 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>mystartsearch</os:ShortName>
-<os:Description>this is my first firefox searchEngine</os:Description>
-<os:Url type="text/html" method="GET" template="http://www.mystartsearch.com/web/?type=ds&amp;ts=1422714306&amp;from=amt&amp;uid=ST9500325AS_5VENLEG4XXXX5VENLEG4&amp;q={searchTerms}" resultDomain="mystartsearch.com">
-</os:Url>
-</SearchPlugin>

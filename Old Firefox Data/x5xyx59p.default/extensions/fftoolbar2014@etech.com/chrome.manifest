@@ -1,5 +1,0 @@
-content     fftoolbar     chrome/content/
-content     fftoolbar     chrome/content/ contentaccessible=yes
-resource    fftoolbar     chrome/content/
-overlay chrome://browser/content/browser.xul chrome://fftoolbar/content/toolbar.xul
-skin fftoolbar classic/1.0 chrome/skin/

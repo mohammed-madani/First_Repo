@@ -1,2 +1,0 @@
-services.addons.mozilla.org:HSTS	0	16438	1451790954101,1,0
-accounts.google.com:HSTS	0	16501	1436639764694,1,1

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<overlay id="notraceunisait-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script type="application/x-javascript" src="chrome://notraceunisait/content/overlay.js"/>
-</overlay>
